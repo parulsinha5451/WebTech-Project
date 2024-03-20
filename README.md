@@ -9,7 +9,8 @@ This project consists of HTML and CSS code for a betting app website. It include
 - `index.html`: Main landing page of the website.
 - `login.html`: Sign-in page for the betting app.
 - `register.html`: Registration page for the betting app.
-- `styles.css`: CSS stylesheet containing the styles for all pages.
+- `style.css`: CSS stylesheet containing the styles for all pages.
+- 'dashboard.html': Dashboard page for the website
 
 ## Usage
 
@@ -21,8 +22,5 @@ The website is designed to be compatible with modern web browsers and various de
 
 ## Credits
 
-- HTML and CSS code by [Your Name]
+- HTML and CSS code by [Parul Sinha]
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
