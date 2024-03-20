@@ -1,0 +1,140 @@
+/* Common styles */
+
+body {
+    background-color: rgb(24, 24, 24);
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 0;
+    /* Reset margin */
+}
+
+.video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.3;
+}
+
+header.header .humburger {
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Media queries for smaller screens */
+
+@media screen and (max-width: 768px) {
+    header.header {
+        height: 80px;
+        /* Adjust header height for smaller screens */
+    }
+    header.header .humburger {
+        font-size: 20px;
+        /* Adjust hamburger icon size for smaller screens */
+    }
+    header.header ul.menu li {
+        font-size: 14px;
+        /* Adjust menu item font size for smaller screens */
+        margin-right: 10px;
+        /* Reduce margin between menu items for smaller screens */
+    }
+    header.header ul.menu a {
+        font-size: 14px;
+        /* Adjust menu item font size for smaller screens */
+    }
+    footer {
+        font-size: 14px;
+        /* Adjust footer text size for smaller screens */
+    }
+}
+
+
+/* Media queries for even smaller screens */
+
+@media screen and (max-width: 480px) {
+    header.header {
+        height: 60px;
+        /* Adjust header height for even smaller screens */
+    }
+    header.header .humburger {
+        font-size: 18px;
+        /* Adjust hamburger icon size for even smaller screens */
+    }
+    header.header ul.menu li {
+        font-size: 12px;
+        /* Adjust menu item font size for even smaller screens */
+        margin-right: 5px;
+        /* Reduce margin between menu items for even smaller screens */
+    }
+    header.header ul.menu a {
+        font-size: 12px;
+        /* Adjust menu item font size for even smaller screens */
+    }
+    footer {
+        font-size: 12px;
+        /* Adjust footer text size for even smaller screens */
+    }
+}
+
+main.main {
+    position: relative;
+    padding-top: 150px;
+    /* Adjust padding to create space for the header */
+}
+
+main h1 {
+    color: white;
+    position: absolute;
+    top: 100px;
+    /* Adjust the top position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Abril Fatface';
+    filter: brightness(0.7);
+}
+
+@media screen and (max-width: 768px) {
+    main h1 {
+        font-size: 40px;
+        /* Adjust font size for smaller screens */
+        top: 80px;
+        /* Adjust top position for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main h1 {
+        font-size: 30px;
+        /* Adjust font size for even smaller screens */
+        top: 60px;
+        /* Adjust top position for even smaller screens */
+    }
+}
+
+.main .content {
+    color: white;
+    padding: 20px;
+    /* Add padding to the content */
+    max-width: 800px;
+    /* Add max-width to limit content width */
+    margin: 20px auto;
+    /* Center the content horizontally with margin */
+    text-align: justify;
+    /* Justify text */
+}
